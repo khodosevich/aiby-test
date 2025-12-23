@@ -193,6 +193,11 @@ body {
 		padding-block: 28px;
 	}
 
+	.banner__price,
+	.banner__info-text,
+	.banner__info-yearly {
+		font-size: 14px;
+	}
 
 	.footer {
 		padding-top: 0;
