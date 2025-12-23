@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	border: none;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+* {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+* {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
